@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include("./share/head", {title: "Home" }) %>
+    <link rel="stylesheet" href="/views/index.css">
+</head>
+
+<body class="home">
+  <%- include("./share/nav-bar") %>
+
+    <div class="progress" role="progressbar">
+      <div id="progressbar" class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+        style="width: 75%"></div>
+    </div>
+
+    <script src="/views/index.js" type="module"></script>
+</body>
+
+</html>
